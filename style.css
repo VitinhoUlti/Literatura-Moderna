@@ -37,40 +37,6 @@ h3{
 a{
     text-decoration: none;
 }
-#tituloautores{
-    text-align: center;
-}
-.imagem{
-    width: 30vw;
-    height: 30vh;
-    margin: 1vw;
-}
-#imagem1{
-    background: url(imagens/Jose_de_Alencar.jpg);
-    background-size: cover;
-}
-#imagem2{
-    background: url(imagens/Brazilian_writer_Machado_de_Assis.png);
-    background-size: cover;
-}
-#imagem3{
-    background: url(imagens/retrato-ilustrado-de-carlos-drummond-de-andrade.jpg);
-    background-size: cover;
-}
-.autores{
-    background: url(imagens/pexels-suzy-hazelwood-1526049.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-#autor1{
-    display: none;
-}
-#autor2{
-    display: none;
-}
-#autor3{
-    display: none;
-}
 .titulo{
     width: 100vw;
     color: white;
@@ -136,7 +102,40 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+#tituloautores{
+    text-align: center;
+}
+.imagem{
+    width: 30vw;
+    height: 30vh;
+    margin: 1vw;
+}
+#imagem1{
+    background: url(imagens/Jose_de_Alencar.jpg);
+    background-size: cover;
+}
+#imagem2{
+    background: url(imagens/Brazilian_writer_Machado_de_Assis.png);
+    background-size: cover;
+}
+#imagem3{
+    background: url(imagens/retrato-ilustrado-de-carlos-drummond-de-andrade.jpg);
+    background-size: cover;
+}
+.autores{
+    background: url(imagens/pexels-suzy-hazelwood-1526049.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#autor1{
+    display: none;
+}
+#autor2{
+    display: none;
+}
+#autor3{
+    display: none;
+}
 @media (min-width:600px){
     h3{
         font-size: 4vw;
